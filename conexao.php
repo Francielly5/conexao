@@ -2,7 +2,7 @@
 $host="localhost";
 $banco="bibliotecaatual";
 $usuario="root";
-$senha="usbw";
+$senha="";
 
 try{
     $pdo = new PDO("mysql:host=$host;port=3307;dbname=$banco;charset=utf8",$usuario, $senha);
